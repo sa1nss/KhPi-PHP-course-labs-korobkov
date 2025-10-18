@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Лабораторна робота №2 – Завантаження файлів</title>
+</head>
+<body>
+  <h2>Завантаження файлу на сервер</h2>
+  <form action="process.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="userfile" required>
+    <input type="submit" value="Завантажити файл">
+  </form>
+
+  <hr>
+
+  <h2>Запис тексту у файл</h2>
+  <form action="text.php" method="post">
+    <textarea name="textdata" rows="5" cols="50" placeholder="Введіть текст для запису у log.txt" required></textarea><br>
+    <input type="submit" value="Записати у файл">
+  </form>
+
+  <hr>
+
+  <a href="list.php">Переглянути список завантажених файлів</a>
+</body>
+</html>
