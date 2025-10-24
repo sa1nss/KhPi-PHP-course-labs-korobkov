@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    max-width: 900px;
+  }
+  nav a { margin-right: 10px; }
+  h1 { color: #2c3e50; }
+  .box { background:#f7f7f7; padding:10px; border:1px solid #ddd; margin-top:10px; }
+  form { margin-top:10px; }
+  label { display:block; margin:8px 0 4px; }
+  input[type="text"], input[type="password"], select { padding:6px; width: 100%; max-width: 400px; }
+  button { padding:8px 12px; margin-top:8px; }
+  .product { border:1px solid #ddd; padding:8px; margin:6px 0; display:flex; justify-content:space-between; align-items:center; }
+  
