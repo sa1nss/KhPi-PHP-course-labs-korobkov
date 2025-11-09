@@ -1,0 +1,10 @@
+:root { --bg:#0b0f1a; --card:#12182a; --text:#eef2ff; --muted:#93a2b8; --accent:#62d0ff; }
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,Segoe UI,Roboto,Ubuntu}
+.container{max-width:720px;margin:6rem auto;padding:2rem;background:var(--card);border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+h1{margin:0 0 1rem;font-size:2rem}
+p{color:var(--muted)} a{color:var(--accent);text-decoration:none}
+.form{display:grid;gap:14px;margin-top:1rem}
+.input{padding:12px 14px;border-radius:12px;border:1px solid #26314f;background:#0e1424;color:var(--text)}
+.btn{padding:12px 14px;border-radius:12px;border:0;background:linear-gradient(90deg,#62d0ff,#7b8cff);color:#00132b;font-weight:700;cursor:pointer}
+.alert{padding:12px;border-radius:12px;background:#1b243b;color:#e2e8f0;border:1px solid #2a3b66}
+.nav{display:flex;gap:10px;margin-top:10px}
